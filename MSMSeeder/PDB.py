@@ -64,7 +64,7 @@ def retrieve_sifts(pdb_id):
     '''Retrieves a SIFTS .xml file, given a PDB ID. Works by modifying the PDBe download URL.
     Also removes annoying namespace stuff.
     '''
-    import re, gzip, StringIO
+    import re, gzip, StringIO, urllib2
     sifts_download_base_url='ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/xml/'
     url = sifts_download_base_url + pdb_id.lower() + '.xml.gz'
     response = urllib2.urlopen(url)
@@ -99,6 +99,9 @@ def retrieve_pdb(pdb_id,compressed='no'):
     if compressed == 'yes':
         url += '.gz'
     response = urllib2.urlopen(url)
-    pdb_file = response.read(10000000) # Max 10MB
+    try:
+        pdb_file = response.read(10000000) # Max 10MB
+    except:
+        return 'Error'
     return pdb_file
 
