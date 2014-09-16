@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cabeda56-b608-4355-a073-2fd2a058e886" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/SparkDriver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MSMSeeder/PDB.py" afterPath="$PROJECT_DIR$/MSMSeeder/PDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MSMSeeder/distributed.py" afterPath="$PROJECT_DIR$/MSMSeeder/distributed.py" />
+    </list>
+    <ignored path="msmseeder.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="msmseeder" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distributed.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/distributed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="441" column="38" selection-start="15479" selection-end="15508" vertical-scroll-proportion="0.0" vertical-offset="4965" max-vertical-offset="13770">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modelling.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/modelling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="8" selection-start="5181" selection-end="5243" vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="5085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkDriver.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/SparkDriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="121" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1050">
+              <folding>
+                <element signature="e#35#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refinement.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/refinement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="24" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="11310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initproject.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/initproject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="493" column="8" selection-start="19650" selection-end="19730" vertical-scroll-proportion="0.0" vertical-offset="7395" max-vertical-offset="8445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniProt.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/UniProt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3404" max-vertical-offset="4185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDB.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MSMSeeder/PDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="0" selection-start="3249" selection-end="3696" vertical-scroll-proportion="0.42307693" vertical-offset="1175" max-vertical-offset="1695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/distributed.py" />
+        <option value="$PROJECT_DIR$/MSMSeeder/PDB.py" />
+        <option value="$PROJECT_DIR$/MSMSeeder/distributed.py" />
+        <option value="$PROJECT_DIR$/scripts/SparkDriver.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1682" />
+    <option name="height" value="878" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msmseeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSMSeeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="/Library/modeller-9.13/modlib" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msmseeder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cabeda56-b608-4355-a073-2fd2a058e886" name="Default" comment="" />
+      <created>1407939867497</created>
+      <updated>1407939867497</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Amended Readme to reflect additional dependency">
+      <created>1407940163578</created>
+      <updated>1407940163578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Apparently committed a blank file; this is spark-msmseeder thus far.">
+      <created>1407940898368</created>
+      <updated>1407940898368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove temp directory after downloading PDB">
+      <created>1407941042314</created>
+      <updated>1407941042314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add code to use local installation of blast--biopython blast was very flaky and apparently did strange things to the interpreter">
+      <created>1408135011654</created>
+      <updated>1408135011654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added code borrowed from initproject.py to get template FASTA from sifts (apparently getting it from the PDB doesn't work)">
+      <created>1408204499936</created>
+      <updated>1408204499936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Structure comparison and modelling from blast-received structures now working">
+      <created>1408220606208</created>
+      <updated>1408220606208</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed PDB fetching to use Danny's code-- much more robust">
+      <created>1408387905496</created>
+      <updated>1408387905496</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Minor fixes">
+      <created>1409498629994</created>
+      <updated>1409498629994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1682" height="878" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21403092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3226205" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3580247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Amended Readme to reflect additional dependency" />
+    <MESSAGE value="Apparently committed a blank file; this is spark-msmseeder thus far." />
+    <MESSAGE value="Remove temp directory after downloading PDB" />
+    <MESSAGE value="Add code to use local installation of blast--biopython blast was very flaky and apparently did strange things to the interpreter" />
+    <MESSAGE value="Added code borrowed from initproject.py to get template FASTA from sifts (apparently getting it from the PDB doesn't work)" />
+    <MESSAGE value="Structure comparison and modelling from blast-received structures now working" />
+    <MESSAGE value="Changed PDB fetching to use Danny's code-- much more robust" />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/distributed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="525" column="21" selection-start="18756" selection-end="18756" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/refinement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="82" selection-start="4991" selection-end="5061" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="11310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/initproject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="493" column="8" selection-start="19650" selection-end="19730" vertical-scroll-proportion="0.0" vertical-offset="7395" max-vertical-offset="8445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/UniProt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3404" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/PDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="21" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/distributed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="28630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/initproject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="493" column="8" selection-start="19650" selection-end="19730" vertical-scroll-proportion="0.0" vertical-offset="7110" max-vertical-offset="8445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/UniProt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/refinement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="24" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="11310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/modelling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="8" selection-start="5181" selection-end="5243" vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="5085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/SparkDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="121" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1050">
+          <folding>
+            <element signature="e#35#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/distributed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="441" column="38" selection-start="15479" selection-end="15508" vertical-scroll-proportion="0.0" vertical-offset="6165" max-vertical-offset="13770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MSMSeeder/PDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="3249" selection-end="3696" vertical-scroll-proportion="0.42307693" vertical-offset="1175" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
