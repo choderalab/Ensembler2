@@ -6,7 +6,7 @@
 #
 
 import MSMSeeder
-import MSMSeeder.modelling
+import MSMSeeder.attic.modelling
 
 # ========
 # Parse command-line arguments
@@ -20,22 +20,22 @@ argparser.add_argument('--templates', nargs='+', help='(Default: all templates) 
 argparser.add_argument('-v', '--verbose', action='store_true', help='Verbose')
 args = argparser.parse_args()
 
-MSMSeeder.core.check_project_toplevel_dir()
+MSMSeeder.attic.core.check_project_toplevel_dir()
 
 # ========
 # Build models
 # ========
 
-MSMSeeder.modelling.build_models(process_only_these_targets=args.targets, process_only_these_templates=args.templates, verbose=args.verbose)
+MSMSeeder.attic.modelling.build_models(process_only_these_targets=args.targets, process_only_these_templates=args.templates, verbose=args.verbose)
 
 # ========
 # Write a list of models sorted by sequence identity
 # ========
 
-MSMSeeder.modelling.sort_by_sequence_identity(process_only_these_targets=args.targets, verbose=args.verbose)
+MSMSeeder.attic.modelling.sort_by_sequence_identity(process_only_these_targets=args.targets, verbose=args.verbose)
 
 # ========
 # Cluster models
 # ========
 
-MSMSeeder.modelling.cluster_models(process_only_these_targets=args.targets, verbose=args.verbose)
+MSMSeeder.attic.modelling.cluster_models(process_only_these_targets=args.targets, verbose=args.verbose)

@@ -17,10 +17,10 @@ def init(project_toplevel_dir):
     import MSMSeeder
 
     project_dirnames = ['targets', 'structures', 'templates', 'models', 'packaged-models']
-    MSMSeeder.core.project_metadata_filename = 'project-data.yaml'
+    MSMSeeder.attic.core.project_metadata_filename = 'project-data.yaml'
 
     now = datetime.datetime.utcnow()
-    datestamp = now.strftime(MSMSeeder.core.datestamp_format_string)
+    datestamp = now.strftime(MSMSeeder.attic.core.datestamp_format_string)
 
     # =========
     # Create necessary project directories
@@ -45,10 +45,10 @@ def init(project_toplevel_dir):
     # Create metadata file and add datestamp
     # =========
 
-    project_metadata = MSMSeeder.core.ProjectMetadata()
+    project_metadata = MSMSeeder.attic.core.ProjectMetadata()
     init_metadata = {'init' : {'datestamp' : datestamp}}
     project_metadata.add_metadata(init_metadata)
-    project_metadata.write(ofilepath=MSMSeeder.core.project_metadata_filename)
+    project_metadata.write(ofilepath=MSMSeeder.attic.core.project_metadata_filename)
 
     print 'Done.'
 
@@ -74,8 +74,8 @@ def gather_targets_from_TargetExplorerDB(DB_path):
     # Read in project metadata file (will throw an exception if it does not exist)
     # =========
 
-    project_metadata = MSMSeeder.core.ProjectMetadata()
-    project_metadata.load(MSMSeeder.core.project_metadata_filename)
+    project_metadata = MSMSeeder.attic.core.ProjectMetadata()
+    project_metadata.load(MSMSeeder.attic.core.project_metadata_filename)
 
     # =========
     # Parse the TargetExplorer database path
@@ -113,7 +113,7 @@ def gather_targets_from_TargetExplorerDB(DB_path):
     # =========
 
     now = datetime.datetime.utcnow()
-    datestamp = now.strftime(MSMSeeder.core.datestamp_format_string)
+    datestamp = now.strftime(MSMSeeder.attic.core.datestamp_format_string)
 
     target_selection_metadata = {
     'datestamp': datestamp,
@@ -172,8 +172,8 @@ def gather_templates_from_TargetExplorerDB(DB_path):
     # Read in project metadata file
     # =========
 
-    project_metadata = MSMSeeder.core.ProjectMetadata()
-    project_metadata.load(MSMSeeder.core.project_metadata_filename)
+    project_metadata = MSMSeeder.attic.core.ProjectMetadata()
+    project_metadata.load(MSMSeeder.attic.core.project_metadata_filename)
 
     # =========
     # Parse the TargetExplorer database
@@ -220,7 +220,7 @@ def gather_templates_from_TargetExplorerDB(DB_path):
     # =========
 
     now = datetime.datetime.utcnow()
-    datestamp = now.strftime(MSMSeeder.core.datestamp_format_string)
+    datestamp = now.strftime(MSMSeeder.attic.core.datestamp_format_string)
 
     template_selection_metadata = {
     'datestamp': datestamp,
@@ -254,14 +254,14 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
     # Read in project metadata
     # =========
 
-    project_metadata = MSMSeeder.core.ProjectMetadata()
-    project_metadata.load(MSMSeeder.core.project_metadata_filename)
+    project_metadata = MSMSeeder.attic.core.ProjectMetadata()
+    project_metadata.load(MSMSeeder.attic.core.project_metadata_filename)
 
     min_domain_len = None
     max_domain_len = None
     domain_span_manual_specifications = None
-    if os.path.exists(MSMSeeder.core.manual_specifications_filename):
-        with open(MSMSeeder.core.manual_specifications_filename, 'r') as manual_specifications_file:
+    if os.path.exists(MSMSeeder.attic.core.manual_specifications_filename):
+        with open(MSMSeeder.attic.core.manual_specifications_filename, 'r') as manual_specifications_file:
             manual_specifications = yaml.load(manual_specifications_file)
         template_manual_specifications = manual_specifications.get('template-selection')
         min_domain_len = template_manual_specifications.get('min-domain-len')
@@ -302,7 +302,7 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
         query_string_split = UniProt_query_string.split('"')
         query_string_domain_selection = query_string_split[ query_string_split.index('domain:') + 1 ]
 
-        UniProt_query_string_domains = UniProtXML.xpath('entry/feature[@type="domain"][match_regex(@description, "%s")]' % query_string_domain_selection, extensions = { (None, 'match_regex'): MSMSeeder.core.xpath_match_regex_case_insensitive })
+        UniProt_query_string_domains = UniProtXML.xpath('entry/feature[@type="domain"][match_regex(@description, "%s")]' % query_string_domain_selection, extensions = { (None, 'match_regex'): MSMSeeder.attic.core.xpath_match_regex_case_insensitive })
 
         UniProt_unique_domain_names = set([domain.get('description') for domain in UniProt_query_string_domains])
         print 'Set of unique domain names selected by the domain selector \'%s\' during the initial UniProt search:\n%s' % (query_string_domain_selection, UniProt_unique_domain_names)
@@ -319,7 +319,7 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
     # =========
 
     if UniProt_domain_regex != None:
-        regex_matched_domains = UniProtXML.xpath('entry/feature[@type="domain"][match_regex(@description, "%s")]' % UniProt_domain_regex, extensions = { (None, 'match_regex'): MSMSeeder.core.xpath_match_regex_case_sensitive })
+        regex_matched_domains = UniProtXML.xpath('entry/feature[@type="domain"][match_regex(@description, "%s")]' % UniProt_domain_regex, extensions = { (None, 'match_regex'): MSMSeeder.attic.core.xpath_match_regex_case_sensitive })
 
         regex_matched_domains_unique_names = set([domain.get('description') for domain in regex_matched_domains])
         print 'Unique domain names selected after searching with the case-sensitive regex string \'%s\':\n%s' % (UniProt_domain_regex, regex_matched_domains_unique_names)
@@ -338,7 +338,7 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
     for entry in all_UniProt_entries:
         entry_name = entry.find('name').text
         if UniProt_domain_regex != None:
-            selected_domains = entry.xpath('feature[@type="domain"][match_regex(@description, "%s")]' % UniProt_domain_regex, extensions = { (None, 'match_regex'): MSMSeeder.core.xpath_match_regex_case_sensitive })
+            selected_domains = entry.xpath('feature[@type="domain"][match_regex(@description, "%s")]' % UniProt_domain_regex, extensions = { (None, 'match_regex'): MSMSeeder.attic.core.xpath_match_regex_case_sensitive })
         else:
             selected_domains = entry.findall('feature[@type="domain"]')
 
@@ -484,7 +484,7 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
             continue
 
         ratio_observed = float(len(selected_residues)) / float(len(all_PDB_domain_residues))
-        if ratio_observed < MSMSeeder.core.template_acceptable_ratio_observed_residues:
+        if ratio_observed < MSMSeeder.attic.core.template_acceptable_ratio_observed_residues:
             #PDBchain['DISCARD'] = True
             continue
 
@@ -539,7 +539,7 @@ def gather_templates_from_UniProt(UniProt_query_string, UniProt_domain_regex, st
     # =========
 
     now = datetime.datetime.utcnow()
-    datestamp = now.strftime(MSMSeeder.core.datestamp_format_string)
+    datestamp = now.strftime(MSMSeeder.attic.core.datestamp_format_string)
 
     template_selection_metadata = {
     'datestamp': datestamp,
