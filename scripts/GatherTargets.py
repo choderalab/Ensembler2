@@ -6,7 +6,7 @@
 #
 
 import MSMSeeder
-import MSMSeeder.initproject
+import MSMSeeder.attic.initproject
 
 # ========
 # Parse command-line arguments
@@ -27,14 +27,14 @@ argparser.add_argument('--gather_from', type=str, help=helpstring_gatherfrom, ch
 argparser.add_argument('--db_path', type=str, help='TargetExplorerDB database path. Will be converted to an absolute path.', default=None)
 args = argparser.parse_args()
 
-MSMSeeder.core.check_project_toplevel_dir()
+MSMSeeder.attic.core.check_project_toplevel_dir()
 
 # ========
 # Parse project metadata
 # ========
 
-project_metadata = MSMSeeder.core.ProjectMetadata()
-project_metadata.load(MSMSeeder.core.project_metadata_filename)
+project_metadata = MSMSeeder.attic.core.ProjectMetadata()
+project_metadata.load(MSMSeeder.attic.core.project_metadata_filename)
 
 # ========
 # Get the target selection method
@@ -75,8 +75,8 @@ elif target_selection_method == 'UniProt':
 # ========
 
 if target_selection_method == 'TargetExplorerDB':
-    MSMSeeder.initproject.gather_targets_from_TargetExplorerDB(DB_path)
+    MSMSeeder.attic.initproject.gather_targets_from_TargetExplorerDB(DB_path)
 
 elif target_selection_method == 'UniProt':
-    MSMSeeder.initproject.gather_targets_from_UniProt()
+    MSMSeeder.attic.initproject.gather_targets_from_UniProt()
 

@@ -1,1 +1,1 @@
-import core
+from MSMSeeder.attic import core

@@ -893,14 +893,14 @@ def refine_explicitMD(msmseed, openmm_platform='CPU', niterations=1, nsteps_per_
         integrator_xml = openmm.XmlSerializer.serialize(integrator)
         with gzip.GzipFile(fileobj = serialized_integrator_stringio, mode = 'w') as buffer:
             buffer.write(integrator_xml)
-        msmseed.explicit_refined_integrator = serialized_state_stringio.getvalue()
+        msmseed.explicit_refined_integrator = serialized_integrator_stringio.getvalue()
 
     #save the system
         serialized_system_stringio = StringIO.StringIO()
         system_xml = openmm.XmlSerializer.serialize(system)
         with gzip.GzipFile(fileobj = serialized_system_stringio, mode = 'w') as buffer:
            buffer.write(system_xml)
-        msmseed.explicit_refined_system = serialized_state_stringio.getvalue()
+        msmseed.explicit_refined_system = serialized_integrator_stringio.getvalue()
     except:
         msmseed.error_state = -4
         msmseed.error_messsage = "Failed to save model"
